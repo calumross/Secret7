@@ -3,6 +3,8 @@
   box-sizing: border-box;
 }
 
+
+
 body{
   width: 100%;
   margin: 0px;
@@ -34,7 +36,8 @@ img{
 .visualresheader{
   position: relative;
   float: left;
-  width: 50%;
+  /*width: 50%;*/
+  width: 100%;
   padding-top: 2.5%;
   padding-bottom: 2.5%;
 
@@ -43,7 +46,8 @@ img{
   font-weight: 700;
   font-family: 'Arimo', sans-serif;
   text-align: center;
-  font-size: 2.5vw;
+  /*font-size: 2.5vw;*/
+  font-size: 4vw;
   letter-spacing: 0.2vh;
   color: #262626;
 
@@ -57,14 +61,16 @@ img{
   float: left;
   /*position: absolute;*/
   width: 100%;
-  margin-left: 25%;
+  /*margin-left: 25%;*/
+  margin-left: 0%;
   background-color: white;
 }
 
 .Albumresheader{
   position: relative;
   float: left;
-  width: 50%;
+  /*width: 50%;*/
+  width: 100%;
   padding-top: 2.5%;
   padding-bottom: 2.5%;
 
@@ -73,7 +79,8 @@ img{
   font-weight: 700;
   font-family: 'Arimo', sans-serif;
   text-align: center;
-  font-size: 2.5vw;
+  /*font-size: 2.5vw;*/
+  font-size: 4vw;
   letter-spacing: 0.2vh;
   color: #262626;
 
@@ -88,14 +95,12 @@ img{
   float: left;
   /*position: absolute;*/
   width: 100%;
-  margin-left: 25%;
+  /*margin-left: 25%;*/
+  margin-left: 0%;
   background-color: white;
 }
 
-
-
-
-@media (max-width: 800px ){
+@media (max-width: 400px ){
   img{
     float: left;
     width:100%;
