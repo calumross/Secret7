@@ -27,13 +27,15 @@ body{
     padding-bottom: 40%;
     background-color: white;
     border: 10px solid rgb(0,0,0);
-    z-index: 15;
+    z-index: 100;
   }
 
   .boxback{
+    position: fixed;
     width: 37.4%;
     margin-left: 31.3%;
     margin-top: 20%;
+    z-index: -10;
   }
 
 .sleeve1, .sleeve2, .sleeve3{
@@ -65,7 +67,7 @@ body{
   height: 3em;
   background: white;
   border: 20px solid rgb(37,211,102);
-  z-index: 4;
+  /*z-index: 4;*/
   box-shadow: -5px -5px 0px rgb(0, 0, 0);
   }
 
@@ -82,7 +84,7 @@ body{
     transform: rotateX(-10deg);
   }
 
-  @media (min-width: 1025px){
+  /*@media (min-width: 1025px){
 
       .sleeve1:hover{
       margin-top: 2.5%;
@@ -103,7 +105,7 @@ body{
       transition: 0.3s;
       z-index: 7;
       }
-}
+}*/
 
 
 /*///////tablets///////*/
@@ -153,6 +155,7 @@ body{
       margin-left: 0%;
       margin-top:90%;
       padding-bottom: 80%;
+      z-index: 10;
       /*border: none;*/
     }
 
@@ -170,7 +173,10 @@ body{
       }
 
       .sleeve1{
+        position: absolute;
         margin-top: 65%;
+        z-index: 5;
+
       }
 
       .research {
@@ -185,6 +191,7 @@ body{
 
       .sleeve2{
         margin-top: 50%;
+        z-index: 4;
       }
 
       .development {
@@ -203,6 +210,7 @@ body{
 
       .sleeve3{
         margin-top: 35%;
+        z-index: 3;
       }
 
       .solutions {
