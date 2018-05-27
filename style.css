@@ -39,7 +39,7 @@ body{
   }
 
 .sleeve1, .sleeve2, .sleeve3{
-  position: absolute;
+  position: fixed;
   width: 30%;
   margin-left: 35%;
   /*padding-top: 14%;
