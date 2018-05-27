@@ -166,14 +166,13 @@ body{
     }
 
       .sleeve1, .sleeve2, .sleeve3{
-        position: absolute;
+        position: fixed;
         width: 80%;
         margin-left: 10%;
         padding-bottom: 30%;
       }
 
       .sleeve1{
-        position: absolute;
         margin-top: 65%;
         z-index: 5;
 
