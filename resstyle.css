@@ -1,5 +1,7 @@
 
-
+* {
+  box-sizing: border-box;
+}
 
 body{
   width: 100%;
@@ -93,7 +95,7 @@ img{
 
 
 
-@media (max-width: 2000px ){
+@media (max-width: 800px ){
   img{
     float: left;
     width:100%;
