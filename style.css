@@ -106,46 +106,6 @@ body{
       }
 }
 
-
-/*///////tablets///////*/
-
-/*@media (min-width: 601px) and (max-width: 1024px){
-
-  .recordbox{
-    width: 60%;
-    margin-left: 20%;
-    margin-top: 52.5%;
-  }
-
-  .boxback{
-    width: 62.2%;
-    margin-left: 18.8%;
-    margin-top: 35%;
-  }
-
-  .sleeve1, .sleeve2, .sleeve3{
-    position: absolute;
-    width: 50%;
-    margin-left: 25%;
-    padding-top: 25%;
-    padding-bottom: 25%;
-  }
-
-  .sleeve1{
-    margin-top: 40%;
-  }
-
-  .sleeve2{
-    margin-top: 30%;
-  }
-
-  .sleeve3{
-    margin-top: 20%;
-  }
-
-
-}*/
-
 /*////////mobiles////////*/
   @media (max-width: 800px){
 
