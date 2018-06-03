@@ -21,10 +21,9 @@ body{
 
   .recordbox{
     position: fixed;
-    width: 35%;
+    width: 100%;
     margin-left: 32.5%;
     margin-top: 30%;
-    padding-bottom: 40%;
     background-color: white;
     border: 10px solid rgb(0,0,0);
     z-index: 100;
@@ -73,6 +72,7 @@ body{
   .sleeve3 {
   margin-top: 15%;
   height: 3em;
+  padding-bottom: 35%;
   background: white;
   border: 20px solid rgba(0,0,0,.5);
   z-index: 3;
@@ -89,6 +89,7 @@ body{
       margin-top: 2.5%;
       box-shadow: -5px 5px 0px rgb(0, 0, 0);
       transition: 0.3s;
+      z-index: 8;
       }
 
       .sleeve2:hover{
@@ -118,7 +119,10 @@ body{
       /*border: none;*/
     }
 
-
+    .warningmob{
+      visibility: hidden;
+    }
+    
       .info{
         position: fixed;
         width: 75%;
@@ -202,3 +206,106 @@ body{
 
 
     }
+
+    @media (min-width: 801px) and (max-width: 3000px){
+
+      .recordbox{
+        width: 100%;
+        margin-left: 0%;
+        margin-top:50%;
+        padding-bottom: 80%;
+        background-color: white;
+        z-index: 10;
+        /*border: none;*/
+      }
+
+
+        .info{
+          position: absolute;
+          width: 75%;
+          margin-top: 10%;
+          margin-left: 12.5%;
+          font-size: 3vw;
+          font-family: 'Montserrat', sans-serif;
+          text-align: justify;
+          text-justify: inter-word;
+          z-index: 21;
+        }
+
+
+
+      .boxback{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 16.5%;
+      }
+
+        .sleeve1, .sleeve2, .sleeve3{
+          width: 80%;
+          margin-left: 10%;
+          padding-bottom: 30%;
+        }
+
+        .sleeve1{
+          position: absolute;
+          margin-top: 20%;
+          padding-bottom: 50%;
+          z-index: 9;
+
+        }
+
+        .research {
+          /*margin-top: -10px;*/
+          margin-right: 5px;
+          line-height: 1.17em;
+          font-weight: bold;
+          font-size: 2em;
+          color: rgb(161,50,194);
+          text-align: right;
+        }
+
+        .sleeve2{
+          position: absolute;
+          margin-top: 10%;
+          padding-bottom: 50%;
+          z-index: 4;
+        }
+
+        .development {
+          /*margin-top: -10px;*/
+          margin-right: 5px;
+          line-height: 1.17em;
+          font-weight: bold;
+          font-size: 2em;
+          color: rgb(37,211,102);
+          text-align: right;
+        }
+
+          /*.longtitle {
+            font-size: 0.7em;
+          }*/
+
+        .sleeve3{
+          position: absolute;
+          margin-top: 35%;
+          z-index: 3;
+        }
+
+        .solutions {
+          /*margin-top: -10px;*/
+          margin-right: 5px;
+          line-height: 1.17em;
+          font-weight: bold;
+          font-size: 2em;
+          color: rgba(0, 0, 0, 0.5);
+          text-align: right;
+        }
+
+        .world.perspective .recordbox {
+          transform: rotateX(0deg);
+        }
+
+
+
+
+      }
